@@ -1,0 +1,41 @@
+{
+    "intents":[
+        {
+            "tag": "Greeeting",
+            "patterns": ["hi","Hello","Hey"],
+            "responses": ["Hello,How can i help you..?"]
+        },
+
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order",
+                "Track my order",
+                "Order status"],
+            "responses": ["Please provide your order ID." ]
+        },
+
+        {
+            "tag": "refund",
+            "patterns": ["refund", "return product", "money back"],
+            "responses": ["Please share your order ID for refund assistance."]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you"],
+            "responses": ["Have a great day!"]
+        },
+
+        {
+            "tag":"refund_policy",
+            "patterns":[
+                "refund policy",
+                "can i get refund"],
+  
+            "responses":["Refunds are available within 7 days."]
+  
+        }
+
+    ]
+}
