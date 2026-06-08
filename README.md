@@ -1,3 +1,34 @@
+# Customer Support Bot
+
+A Python-based customer support chatbot with MySQL integration.
+
+## Features
+- Intent-based chatbot
+- Order tracking
+- MySQL database integration
+- JSON-based intent management
+
+## Tech Stack
+- Python
+- MySQL
+- Git/GitHub
+
+## Setup
+1. Clone repository
+2. Install dependencies
+3. Configure MySQL
+4. Run database.py
+5. Run bot.py
+
+## Future Enhancements
+- Ticket Management
+- Chat History
+- Flask API
+- React Frontend
+- AI Integration
+
+
+
 Phase 1: Basic Rule-Based Chatbot
 
     Start simple before adding AI.
